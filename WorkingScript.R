@@ -15,7 +15,7 @@ j <- list(1,"a",T)
 h <- matrix(c("a","b","c"),nrow=2,ncol=3)
 i <- matrix(j,2,6)
 
-k <- 1:10
+k <- 1:10 #what the fuck man??!!
 dim(k) <- c(2,5)
 
 x <- 1:3
