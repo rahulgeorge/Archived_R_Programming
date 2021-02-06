@@ -17,3 +17,14 @@ i <- matrix(j,2,6)
 
 k <- 1:10
 dim(k) <- c(2,5)
+
+x <- 1:3
+y <- 4:6
+z <- rbind(x,y)
+
+#Data Types - Factors
+x <- factor(c("yes","yes","no","yes","no"),levels=c("yes","no"))
+table(x) #provides frequency of levels in a factor
+unclass(x) #gives integer values to character values in x. 
+           #Set baseline using level = while defining factor
+
