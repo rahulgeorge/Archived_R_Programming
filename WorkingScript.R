@@ -35,6 +35,7 @@ is.nan(x) #checks for NaN values
 
 #Data Frames
 x <- data.frame(foo=1:4,bar=c(T,T,F,F),name=c("a","b","c","d"))
+x <- data.frame(food = 1:5, bar = list(T,"T",1.2,3+2i,4)) #wont work since a column cannot have objects belonging to different class
 
 
 
