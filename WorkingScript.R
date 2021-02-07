@@ -21,6 +21,7 @@ dim(k) <- c(2,5)
 x <- 1:3
 y <- 4:6
 z <- rbind(x,y)
+a <- cbind(x,y)
 
 #Data Types - Factors
 x <- factor(c("yes","yes","no","yes","no"),levels=c("yes","no"))
