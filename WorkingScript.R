@@ -24,8 +24,8 @@ z <- rbind(x,y)
 a <- cbind(x,y)
 
 #Data Types - Factors
-x <- factor(c("yes","yes","no","yes","no"),levels=c("yes","no"))
+x <- factor(c("yes","yes","no","yes","no"),levels=c("yes","no")) #Set baseline using level = while defining factor
 table(x) #provides frequency of levels in a factor
-unclass(x) #gives integer values to character values in x. 
-           #Set baseline using level = while defining factor
+unclass(x) #gives integer values to character values in x based on aphabetical order
+           
 
