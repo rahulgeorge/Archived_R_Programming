@@ -27,5 +27,24 @@ a <- cbind(x,y)
 x <- factor(c("yes","yes","no","yes","no"),levels=c("yes","no")) #Set baseline using level = while defining factor
 table(x) #provides frequency of levels in a factor
 unclass(x) #gives integer values to character values in x based on aphabetical order
-           
+
+#Missing Values
+x <- c(1,2,NA,NaN,3)
+is.na(x) #checks if any values are missing
+is.nan(x) #checks for NaN values
+
+#Data Frames
+x <- data.frame(foo=1:4,bar=c(T,T,F,F),name=c("a","b","c","d"))
+
+
+
+
+
+
+
+
+
+
+
+
 
