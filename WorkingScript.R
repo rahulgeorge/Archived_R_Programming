@@ -50,7 +50,8 @@ dimnames(m) <- list(c("a","b"),c("c","d","e"))
 z <- data.frame(foo=1:4,bar=c(T,T,F,F),name=c("a","b","c","d"))
 dimnames(z) <- list(c("a","b","c","d"),c("name","place","thing")) #Overwrites names given in data frame
 
-
-
+#Reading Tabular Data
+data <- read.table("Test.txt")
+great <- read.csv("Test CSV.csv")
 
 
