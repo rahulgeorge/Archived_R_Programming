@@ -48,7 +48,7 @@ m <- matrix(1:6,nrow=2,ncol=3)
 dimnames(m) <- list(c("a","b"),c("c","d","e"))
 
 z <- data.frame(foo=1:4,bar=c(T,T,F,F),name=c("a","b","c","d"))
-dimnames(z) <- list(c("a","b","c","d"),c("name","place","thing"))
+dimnames(z) <- list(c("a","b","c","d"),c("name","place","thing")) #Overwrites names given in data frame
 
 
 
